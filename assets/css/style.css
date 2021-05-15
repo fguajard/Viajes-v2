@@ -57,3 +57,9 @@
 .card4{
     background-image: url(../img/card4.jpg);
 }
+
+footer .icon-footer{
+    
+    height: 100px;
+    background-color: var(--sky);
+}
