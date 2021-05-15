@@ -26,3 +26,9 @@
     width: 53px;
     height: 53px;
 }
+
+.icono-container{
+    width: 194px;
+    height: 184px;
+    border-radius: 50%;
+}
