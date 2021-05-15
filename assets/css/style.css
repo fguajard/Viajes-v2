@@ -38,7 +38,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 473px;
+    height: 450px;
     border-radius: 11px;
 }
 
@@ -58,8 +58,3 @@
     background-image: url(../img/card4.jpg);
 }
 
-footer .icon-footer{
-    
-    height: 100px;
-    background-color: var(--sky);
-}
