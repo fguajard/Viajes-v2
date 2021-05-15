@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: #212529;
+  --white: white;  
+  --grey: #707070;
+  --sky: #C9F9FF;
+  --thin: 200;
+  --regular: 400;
+  --bold: 700;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+  
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-viajes{
+    width: 53px;
+    height: 53px;
+}
