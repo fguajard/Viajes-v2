@@ -26,6 +26,9 @@
     width: 53px;
     height: 53px;
 }
+.padding-nav{
+    padding: 0 10vw;
+}
 
 .navegacion{
     color: var(--grey);
@@ -91,7 +94,7 @@ header p{
 
 }
 
-.quienes-somos .info4 h3{
+.quienes-somos .info h3{
     font-size: 1.56rem;
     font-weight: var(--bold);
     color: var(--dark);
@@ -119,6 +122,10 @@ header p{
     border-radius: 50%;
     background-color: var(--sky);
     
+}
+
+.quienes-somos .icono-container i{
+    color: var(--white);
 }
 
 .destacados h3{
@@ -171,6 +178,17 @@ header p{
     color: var(--grey);
     line-height: 136.69%;
     letter-spacing: 0.05em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+
+}
+
+.destacados .card small {
+    
+    font-size: 0.68rem;
+    font-weight: var(--bold);
+    color: var(--grey);
+    line-height: 136.69%;
+    letter-spacing: 0.1em;
     text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
 
 }
