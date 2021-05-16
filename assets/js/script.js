@@ -8,7 +8,7 @@ $(document).ready(function () {
   $("a").click(function (event) {
     event.preventDefault();
 
-    var gato = this.hash;
+    let gato = this.hash;
     $("html").animate(
       {
         scrollTop: $(gato).offset().top - 20,
@@ -31,14 +31,14 @@ $(".quienes-somos .info h5").click(function(){
 });
 
 
-var top1 = $(".quienes-somos").offset().top;
+let top1 = $(".quienes-somos").offset().top;
 if(!top1){
-  var top1 = $(".destacados").offset().top;
+  let top1 = $(".destacados").offset().top;
 }
 
 $(document).scroll(function() {
   
-  var scrollPos = $(document).scrollTop();
+  let scrollPos = $(document).scrollTop();
   
   
   if (scrollPos >= top1-40) {
