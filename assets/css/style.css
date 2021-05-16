@@ -7,9 +7,9 @@
 :root {
   --dark: #212529;
   --white: white;  
-  --grey: #707070;
-  --sky: #C9F9FF;
-  --thin: 200;
+  --grey: #DDDDDD;
+  --sky: #5bc0de;
+  --thin: 300;
   --regular: 400;
   --bold: 700;
 }
@@ -18,7 +18,7 @@
   margin: 0px;
   border: 0px;
   
-  font-family: 'Roboto Slab', serif;
+  
   font-family: 'Roboto', sans-serif;
 }
 
@@ -27,13 +27,108 @@
     height: 53px;
 }
 
+.navegacion{
+    color: var(--grey);
+    font-size: 1.25rem;
+    font-weight: var(--regular);    
+    line-height: 1.43rem;;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+
+header h1{
+    font-family: 'Roboto Slab', serif;
+    color: var(--grey);
+    font-size: 3.75rem;
+    font-weight: var(--bold);    
+    line-height: 114.7%;
+    letter-spacing: 0.065em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+}
+
+header p{
+    
+    color: var(--grey);
+    font-size: 1.1rem;
+    font-weight: var(--regular);    
+    line-height: 128.19%;;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);}
+
+.quienes-somos h3 {
+    font-family: 'Roboto Slab', serif;
+    color: var(--grey);
+    font-size: 1.56rem;
+    font-weight: var(--regular);    
+    line-height: 114.7%;
+    letter-spacing: 0.065em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+
+}
+
+.quienes-somos h2 {
+    font-family: 'Roboto Slab', serif;
+    color: var(--grey);
+    font-size: 3.43rem;
+    font-weight: var(--bold);    
+    line-height: 114.7%;
+    letter-spacing: 0.065em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+
+}
+
+.quienes-somos .col-4 h3{
+    font-size: 1.56rem;
+    font-weight: var(--bold);
+    color: var(--dark);
+}
+
+.quienes-somos .col-4 p{
+    font-size: 1rem;
+    font-weight: var(--thin);
+    color: var(--dark);
+    line-height: 114.7%;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+}
+.quienes-somos .col-4 h5{
+    font-size: 1rem;
+    font-weight: var(--bold);
+    color: var(--dark);
+    line-height: 136.69%;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+}
 .icono-container{
     width: 194px;
     height: 184px;
     border-radius: 50%;
     background-color: var(--sky);
+    
 }
 
+.destacados h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: var(--bold);
+    color: var(--grey);
+    line-height: 114.7%;
+    letter-spacing: 0.065em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+}
+
+.destacados h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.44rem;
+    font-weight: var(--bold);
+    color: var(--grey);
+    line-height: 114.7%;
+    letter-spacing: 0.065em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+}
+
+/* background card */
 .card{
     background-position: center;
     background-repeat: no-repeat;
@@ -42,19 +137,67 @@
     border-radius: 11px;
 }
 
-.card1{
+/* font card */
+
+.destacados .card .card-title{
+    
+    font-size: 1.43rem;
+    font-weight: var(--bold);
+    color: var(--grey);
+    line-height: 114.7%;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+
+}
+
+.destacados .card .card-text {
+    
+    font-size: 0.68rem;
+    font-weight: var(--regular);
+    color: var(--grey);
+    line-height: 136.69%;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+
+}
+
+.destacados .card1{
     background-image: url(../img/card1.jpg);
 }
 
-.card2{
+.destacados .card2{
     background-image: url(../img/card2.jpg);
 }
 
-.card3{
+.destacados .card3{
     background-image: url(../img/card3.jpg);
 }
 
-.card4{
+.destacados .card4{
     background-image: url(../img/card4.jpg);
 }
 
+
+
+
+.contacto h3{
+    
+    font-family: 'Roboto Slab', serif;
+    color: var(--grey);
+    font-size: 3.44rem;
+    font-weight: var(--bold);    
+    line-height: 114.7%;
+    letter-spacing: 0.065em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+}
+
+.card .card-footer small{
+    
+    font-size: 0.68rem;
+    font-weight: var(--bold);
+    color: var(--grey);
+    line-height: 136.69%;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 4px 8px rgba(255, 253, 253, 0.2);
+
+}
